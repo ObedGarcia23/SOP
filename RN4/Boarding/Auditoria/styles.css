@@ -1,0 +1,78 @@
+/* Estilos CSS para el formulario */
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select, button {
+    margin: 10px 0;
+}
+.audit-list {
+    list-style-type: none;
+    padding: 0;
+
+}
+.audit-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.audit-list li select,
+.audit-list li input[type="file"] {
+    display: block;
+    margin-top: 10px;
+}
+.audit-list li img {
+    max-width: 100%;
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d20e4;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+footer button {
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.footer_space {
+    height: 50px;
+}
+
+
+.result{
+    margin-top: 10px;
+}
+
+
+/* .result_audit {
+    display: flex;
+    align-items: center;
+} */
+
+
+.custom-select {
+    width: 100%; /* Ancho del elemento al 100% del contenedor */
+    height: 40px; /* Altura deseada del elemento */
+    font-size: 16px; /* Tamaño de fuente deseado */
+    text-align: center;
+}

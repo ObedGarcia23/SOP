@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Agrega jQuery y DataTables CSS y JavaScript -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+
+    <title>Auditoria Boarding</title>
+</head>
+<body>
+    <nav class="navbar">
+
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+       
+        <ul class="menu-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+      
+    </nav>
+
+    <div class="container">
+        <h2>Formulario de Auditoría</h2>
+        <form id="auditForm">
+            <label for="position">Selecciona la posición de trabajo:</label>
+            <select id="position" name="position">
+                <option value="posicion1">Posición 1</option>
+                <option value="posicion2">Posición 2</option>
+                <option value="posicion3">Posición 3</option>
+            </select>
+
+            <h3>Descripción de Auditoría:</h3>
+            <ul class="audit-list" id="auditList">
+                <!-- Los puntos de auditoría se cargarán dinámicamente aquí -->
+            </ul>
+
+            
+        </form>
+    </div>
+
+    <div class="footer_space">
+
+    </div>
+
+    <footer >
+        <button type="submit">Finalizar Auditoría</button>
+    </footer>
+
+    <script src="./datatable.js"></script>
+    <script src="./script.js"></script>
+    <script src="../script.js"></script>
+
+</body>
+</html>
